@@ -1,0 +1,7 @@
+﻿id_venda;data_venda;cliente;cidade;produto;quantidade;preco_unitario;valor_total
+1001;01/01/2025;joÃO silva;sao paulo;notebook;2;3500;
+1002;02/01/2025;MARIA oliveira;Rio de janeiro;mouse;;50;100
+1003;03/01/2025;ana COSTA;belo horizonte;teclado;1;cinquenta;50
+1004;04/01/2025;Carlos souza;curitiba;monitor;1;1200;1200
+1002;02/01/2025;MARIA oliveira;Rio de janeiro;mouse;;50;100
+1005;05/01/2025;paulo santos;sao paulo;notebook;3;3500;10500
