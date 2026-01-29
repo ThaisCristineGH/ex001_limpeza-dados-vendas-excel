@@ -1,21 +1,30 @@
-# Projeto de Limpeza e Padronização de Dados de Vendas 📊
+# 📊 Projeto de Limpeza de Dados de Vendas (Excel)
 
-## 📌 Contexto
-Este projeto demonstra o tratamento de uma base de dados de vendas que apresentava diversas inconsistências, impossibilitando uma análise precisa.
+Este repositório contém um projeto prático de **Data Cleaning** (Limpeza de Dados), onde transformei uma base de dados de vendas bruta e inconsistente em uma estrutura organizada, funcional e pronta para análise.
 
-## 🛠️ Problemas Identificados (O "Antes")
-A base original possuía os seguintes erros:
-- **Inconsistência de Case**: Nomes de clientes e cidades misturando maiúsculas e minúsculas (ex: `joÃO silva`).
-- **Dados Faltantes**: Colunas de `quantidade` e `valor_total` vazias em algumas linhas.
-- **Erros de Tipagem**: Valores numéricos escritos por extenso (ex: `cinquenta` em vez de `50`).
-- **Duplicidade**: O ID 1002 estava duplicado na base original.
+## 📁 Estrutura do Projeto
+- **`data/`**: Contém os arquivos em formato CSV para visualização rápida no GitHub.
+  - `raw_vendas.csv`: Dados originais com erros.
+  - `processed_vendas.csv`: Dados após o tratamento.
+- **`img/`**: Capturas de tela para comparação visual.
+- **`Excel_Vendas_Final...xlsx`**: Planilha completa com fórmulas, cores e gráficos.
 
-## 🧹 Transformações Realizadas (O "Depois")
-1. **Padronização de Texto**: Aplicação da função `MAIÚSCULA` para uniformizar nomes e cidades.
-2. **Correção de Dados**: Substituição de termos por extenso por valores numéricos.
-3. **Cálculos Automáticos**: Implementação da fórmula `=[@QUANTIDADE]*[@PREÇO]` para garantir que o total esteja sempre correto.
-4. **Remoção de Duplicados**: Limpeza de entradas repetidas para integridade dos IDs.
-5. **Formatação Visual**: Aplicação de estilos de tabela e moeda (R$) para facilitar a leitura.
+## 🧹 O que foi realizado no tratamento:
+1. **Padronização de Texto**: Uso da função `MAIÚSCULA` para uniformizar as colunas de Clientes e Cidades.
+2. **Correção de Tipagem**: O valor "cinquenta" foi convertido para o número `50` para permitir cálculos financeiros.
+3. **Tratamento de Nulos**: Identificação e preenchimento de quantidades vazias.
+4. **Eliminação de Duplicatas**: Remoção de registros repetidos (como o ID 1002).
+5. **Automação de Cálculos**: Criação da fórmula de TOTAL e somatória do rodapé.
 
-## 📁 Tecnologias
-- Microsoft Excel (Fórmulas, Formatação de Tabela e Limpeza de Dados).
+## 📈 Comparação Visual
+Abaixo, você pode ver a diferença entre a base bruta e a base tratada:
+
+### Antes (Dados Sujos)
+![Antes](./img/antes.png)
+
+### Depois (Dados Limpos e Formatados)
+![Depois](./img/depois.png)
+
+## 🛠️ Tecnologias
+- **Microsoft Excel**: Limpeza, fórmulas e formatação.
+- **GitHub**: Hospedagem e documentação do projeto.
