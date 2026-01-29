@@ -17,10 +17,5 @@ A base original possuía os seguintes erros:
 4. **Remoção de Duplicados**: Limpeza de entradas repetidas para integridade dos IDs.
 5. **Formatação Visual**: Aplicação de estilos de tabela e moeda (R$) para facilitar a leitura.
 
-## 📊 Comparativo Visual
-| Antes (Dados Brutos) | Depois (Dados Tratados) |
-| :---: | :---: |
-| ![Antes](./img/antes.png) | ![Depois](./img/depois.png) |
-
 ## 📁 Tecnologias
 - Microsoft Excel (Fórmulas, Formatação de Tabela e Limpeza de Dados).
